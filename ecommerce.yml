@@ -1,6 +1,6 @@
 token:
-  expiration_time: 864
-  secret: value
+  expiration_time: 864000000
+  secret: my_token
 
 gateway:
   127.0.0.1
