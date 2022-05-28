@@ -1,10 +1,10 @@
-  spring:
-    datasource:
-      driver-class-name: org.h2.Driver
-      url: jdbc:h2:mem:testdb
-      hikari:
-        username: sa
-        password: '{cipher}11d2ef7f6cc78811fc7243b520f305709d8e1ac90f645f6431fe24f297e9ab95'
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    hikari:
+      username: sa
+      password: '{cipher}11d2ef7f6cc78811fc7243b520f305709d8e1ac90f645f6431fe24f297e9ab95'
 token:
   expiration_time: 864000000
   secret: user_token_native_user_service_default
